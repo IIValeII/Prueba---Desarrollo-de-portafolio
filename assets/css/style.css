@@ -9,3 +9,19 @@ h1, h2, h3 {
 p, li {
   font-weight: 300;
 }
+
+.custom-navbar {
+  background-color: #2a4543; 
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: white;
+  text-transform: uppercase;
+}
+
+.carousel-item img {
+  height: 600px; 
+  object-fit: cover; 
+}
+

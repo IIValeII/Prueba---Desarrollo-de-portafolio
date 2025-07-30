@@ -6,47 +6,137 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Mi cv</title>
 </head>
 <body>
-    <h1>Curriculum Vitae</h1> 
-    <img src="./assets/img/IMG_6554.JPEG" alt="foto" width="300px" height="auto">
-    <h2>Valentina Urrutia Medina</h2>
-    <h3>Resumen</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel orci id ante
-    viverra convallis. Quisque nulla nisi, eleifend nec magna vitae, aliquam porttitor 
-    mauris. Aenean justo turpis, lacinia id libero quis, faucibus condimentum elit.
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam eu iaculis massa.
-    Aliquam congue ante vel justo ullamcorper sagittis. Cras metus justo, lacinia et 
-    convallis vitae, aliquam a neque. Vestibulum ante ipsum primis in faucibus orci 
-    luctus et ultrices posuere cubilia curae; Maecenas condimentum consequat justo,
-    et placerat nunc fringilla tincidunt.</p>
-    <h3>Datos Personales</h3>
-    <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Duis iaculis turpis ac mi finibus, at commodo odio ullamcorper.</li>
-        <li>Proin ac urna in dui tempus pharetra.</li>
-    </ul>
-    <h3>Formación</h3>
-    <p>Ut imperdiet gravida tortor, eu imperdiet sapien accumsan eu. Pellentesque habitant
-        morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-        Cras posuere ac est ut volutpat. Proin ultricies ultrices ex id imperdiet.
-        Duis porttitor metus vitae nisi consectetur, vel finibus lacus convallis.
-        Donec mollis, odio vel lobortis molestie, neque felis fringilla eros, non
-        scelerisque lectus nulla vitae nibh. Vestibulum dapibus mattis augue, non
-        semper ipsum lobortis in. Donec sed metus velit. Suspendisse vitae rutrum ex.
-        Donec sed eros ipsum. Proin accumsan ac libero in euismod.
-        Quisque ipsum nulla, luctus efficitur orci a, eleifend dignissim lectus.</p>
-    <h3>Habilidades</h3>
-    <ol>
-        <li>Vestibulum non orci nec metus porta faucibus.</li>
-        <li>Donec vitae nisi pharetra, laoreet ipsum at, efficitur risus.</li>
-        <li>Fusce eget velit condimentum, imperdiet odio sit amet, viverra leo.</li>
-        <li>Suspendisse sit amet erat vitae quam malesuada faucibus non sed orci.</li>
-    </ol>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Valentina Urrutia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Resumen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Datos Personales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Formación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Habilidades</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <p><a href="https://www.linkedin.com/in/vurrutiamedina/"> Link perfil</a></p>
-    <a href="./portafolio.html">Portafolio</a>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/img/1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Valentina Urrutia Medina</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    
+    <section class="mb-4">
+      <h3>Resumen</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at fringilla justo.
+        Sed molestie, augue in tincidunt bibendum, justo sem aliquet augue, at hendrerit
+        nibh nulla vitae enim. Praesent in tellus molestie, condimentum leo at, consequat
+        auris. Integer in volutpat libero. Suspendisse potenti. Integer eros elit, 
+        eleifend vehicula laoreet non, congue aliquet erat. Nunc elementum leo et lacus 
+        scelerisque, vitae lacinia dolor tincidunt. In at tortor pulvinar, tincidunt nulla
+        vitae, vehicula risus. Vestibulum tempor sollicitudin accumsan. Donec facilisis
+        finibus scelerisque. Aenean pharetra odio sem, sit amet rutrum dolor eleifend
+        finibus. Integer iaculis magna pharetra dignissim dapibus. Vestibulum elementum
+        consectetur leo eget pulvinar.
+        <br><br>
+        Vestibulum vehicula at nisi ut commodo. Nullam tempus bibendum ex, a laoreet nunc 
+        vehicula in. Integer id tristique quam, sit amet mattis odio. Nunc orci nunc, 
+        porta quis mauris eu, ultricies suscipit leo. Suspendisse augue nulla, 
+        ultricies sed fermentum sed, venenatis non dui. Pellentesque nec neque 
+        eget lorem gravida ullamcorper. Vestibulum vel nisl elementum lectus accumsan 
+        feugiat. Curabitur condimentum erat neque, id dignissim odio tempor eu.
+        Sed placerat, nisi id hendrerit interdum, est eros finibus libero, vel 
+        egestas dui nisi ut nunc. Sed vel lobortis metus. Fusce ut ultrices lacus.
+      </p>
+    </section>
+
+  
+    <section class="mb-4">
+      <h3>Datos Personales</h3>
+      <ul class="list-group">
+        <li class="list-group-item">Rut: 19.345.678-9</li>
+        <li class="list-group-item">Correo: valentina@gmail.com</li>
+        <li class="list-group-item">Teléfono: +56 9 1234 5678</li>
+        <li class="list-group-item">Dirección: Chillán, Chile</li>
+      </ul>
+    </section>
+
+
+    <section class="mb-4">
+      <h3>Formación</h3>
+      <ul>
+        <li>Dirección Audiovisual - UCSC (2016-2020)</li>
+        <li>Desarrollo Full Stack - Desafío Latam (2025)</li>
+      </ul>
+    </section>
+
+
+    <section class="mb-4">
+      <h3>Habilidades</h3>
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item">HTML, CSS, Git y GitHub</li>
+        <li class="list-group-item">Edición de video con Premiere y After Effects</li>
+        <li class="list-group-item">Organización y trabajo en equipo</li>
+        <li class="list-group-item">Capacidad de aprendizaje autónomo</li>
+      </ol>
+    </section>
+
+    <div class="text-center mt-5">
+      <a href="https://www.linkedin.com/in/vurrutiamedina/" class="btn btn-outline-secondary btn-custom me-2" target="_blank">Ver LinkedIn</a>
+      <a href="portafolio.html" class="btn btn-outline-secondary btn-custom">Ver Portafolio</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
