@@ -1,27 +1,58 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color:#f2f7f5 !important; 
+  color:#475d5b !important ;
 }
 
 h1, h2, h3 {
   font-weight: 600;
+  text-transform: uppercase;
 }
+
+.resumen {
+  text-align: justify;
+  text-justify: inter-word; 
+  hyphens: auto; 
+  word-wrap: break-word;
+  padding-left: 1rem;
+  padding-right: 1rem;
+} 
 
 p, li {
   font-weight: 300;
 }
 
 .custom-navbar {
-  background-color: #2a4543; 
+  background-color: #00473e; 
 }
 
 .custom-navbar .nav-link,
 .custom-navbar .navbar-brand {
-  color: white;
+  color:#f2f7f5;
   text-transform: uppercase;
 }
 
 .carousel-item img {
   height: 600px; 
   object-fit: cover; 
+}
+
+.btn-custom {
+  color: #00473e; 
+  background-color: #faae2b; 
+  border-color: #faae2b; 
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn-custom:hover {
+  background-color: #475d5b;
+  border-color: #475d5b;
+  color: #f2f7f5;
+}
+
+.custom-footer {
+  background-color: #00473e; /* ejemplo: índigo */
+  color: #f2f7f5; /* texto color caqui */
 }
 
