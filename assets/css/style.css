@@ -52,7 +52,12 @@ p, li {
 }
 
 .custom-footer {
-  background-color: #00473e; /* ejemplo: índigo */
-  color: #f2f7f5; /* texto color caqui */
+  background-color: #00473e; 
+  color: #f2f7f5; 
 }
 
+.table-bordered,
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #00473e !important; 
+}
